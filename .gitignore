@@ -1,0 +1,17 @@
+# --- sistema operacional (lixo que os editores/exploradores geram) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- editores / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- builds temporários / logs locais ---
+*.log
+tmp/
+
+# --- NUNCA colocar segredos neste repo ---
+*.env
+*.token
